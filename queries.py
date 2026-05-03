@@ -1,5 +1,5 @@
 """
-This has queries for the rag that you can just run via "python queries.py" after prep and setup.
+This has queries for the rag that you can just run via "python queries.py" after chunk and embed.
 You can add to the list or remove from the list.
 There are three things you can change: the question, the n_results (top-k) and the filter type.
 Filter types are transactions, monthly, categories, regions and rankings.

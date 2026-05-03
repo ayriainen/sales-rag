@@ -1,9 +1,9 @@
 """
-This is data prep that you only need to run once: "python prep.py". Run this before setup.py.
+This is chunk prep that you only need to run once: "python chunk.py". Run this before embed.py.
 It reads the Superstore CSV file and converts it to chunks.
 There are 5 chunks types: basic transactions, monthly, categories, regions and rankings.
 Rankings has year, region profit rank and category profit rank.
-Produces chunks.json that will be used by setup.py.
+Produces chunks.json that will be used by embed.py.
 """
 import pandas as pd
 import json

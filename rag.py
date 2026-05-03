@@ -1,7 +1,7 @@
 """
 This is the main rag part. It can be called directly via "python rag.py" or via "python queries.py".
 If you use it directly, edit the values at the bottom, otherwise edit queries.py.
-Run prep.py and then setup.py before this, although they only need to be run once.
+Run chunk.py and then embed.py before this, although they only need to be run once.
 """
 import chromadb
 from chromadb.utils import embedding_functions

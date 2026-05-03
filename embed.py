@@ -1,5 +1,5 @@
 """
-This is database setup that you only need to run once: "python setup.py". Run prep.py before this.
+This is database embed that you only need to run once: "python embed.py". Run chunk.py before this.
 Converts the chunks from chunks.json into vector embeddings.
 The sentence-transformer used is all-MiniLM-L6-v2.
 Outputs chroma_db to be used by rag.py.

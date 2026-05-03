@@ -29,18 +29,18 @@ ollama pull llama3.2:3b
 Inside the project folder, activate venv and install the dependencies in requirements.txt.
 
 ```
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Prepare and setup the data
+### 4. Chunk and embed the data
 
-First run prep.py which produces chunks.json from the CSV. Then run setup.py which uses that to produce chroma_db.
+First run chunk.py which produces chunks.json from the CSV. Then run embed.py which uses that to produce chroma_db.
 
 ```
-python prep.py
-python setup.py
+python chunk.py
+python embed.py
 ```
 
 Both steps only need to be run once. After this you can run the proper RAG.
